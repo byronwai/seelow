@@ -40,7 +40,7 @@ binwalk? 死圖，慘
 
 From Harry Lee 大佬：
 >睇tcp stream, follow, see png, copy and paste hex editor
->foremost都得
+>or foremost都得
 
 
 
