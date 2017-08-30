@@ -13,11 +13,11 @@ PCAP我唔用wireshark解，又如何
 
 Who has 10.0.2.4? No one cares.
 
-![](pic/02.PNG)
+![](pic/02.png)
 
 邪魔外道之binwalk發現PDF file，extract
 
-![](pic/03.PNG)
+![](pic/03.png)
 
 打開PDF，get flag
 > HITB{b3d0e380e9c39352c667307d010775ca}
