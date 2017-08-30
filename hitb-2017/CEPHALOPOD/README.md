@@ -10,13 +10,36 @@ PCAP嘛，當然要用wireshark解(?)
 ## 1. 正文
 
 打開pcap
+
 ![](pic/01.PNG)
 
 睇唔明，於是善用filter功能
-![](https://github.com/byronwai/seelow/tree/master/hitb-2017/CEPHALOPOD/pic/02.PNG)
+
+![](pic/02.PNG)
 
 發現竟然有flag.png，跟住就走去search PNG個header
 >89 50 4E 47 0D 0A 1A 0A
 
-又居然有
-![](/pic/03.PNG)
+因為我懶，所以我直接sort Length去OSD Operation，Reassemble TCP個到去extract
+
+![](pic/03.PNG)
+
+然後Export Packet Bytes，得到PNG
+
+打開發現flag
+> HITB{95700d8aefdc1648d90a92f3a8460a2c}
+
+![](pic/flag.PNG)
+
+支flag仲衰過Ken Wong個sha-1，慘
+
+
+## 2. 後記
+
+binwalk?
+死圖，慘
+原本個pcap我都upload上黎，大家可以試下
+(ho chi hai)
+
+
+
