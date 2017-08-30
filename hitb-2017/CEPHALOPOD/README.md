@@ -1,7 +1,7 @@
 # Cephalopod (130 pts)
 
 ## 0. 題目
->We've found some strange networktraffic, we suspect it contains a flag.
+> We've found some strange networktraffic, we suspect it contains a flag.
 
 
 PCAP嘛，當然要用wireshark解(?)
@@ -31,15 +31,17 @@ PCAP嘛，當然要用wireshark解(?)
 
 ![](pic/flag.PNG)
 
-支flag仲衰過Ken Wong個sha-1，慘
+支flag仲衰過Ken Wong個條social engineering要sha-1，慘
 
 
 ## 2. 後記
 
 binwalk? 死圖，慘
 
-原本個pcap我都upload上黎，大家可以試下
-(ho chi hai)
+From Harry Lee 大佬：
+>睇tcp stream, follow, see png, copy and paste hex editor
+>foremost都得
+
 
 
 
