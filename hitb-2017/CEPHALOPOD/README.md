@@ -36,8 +36,8 @@ PCAP嘛，當然要用wireshark解(?)
 
 ## 2. 後記
 
-binwalk?
-死圖，慘
+binwalk? 死圖，慘
+
 原本個pcap我都upload上黎，大家可以試下
 (ho chi hai)
 
