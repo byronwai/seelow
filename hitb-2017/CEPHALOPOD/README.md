@@ -8,3 +8,8 @@ PCAP嘛，當然要用wireshark解(?)
 
 ### 0. 正文
 
+打開pcap
+![](/pic/00.png)
+
+睇唔明，於是善用filter功能
+![](/pic/01.png)
