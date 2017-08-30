@@ -1,15 +1,15 @@
----
-title: Cephalopod (130 pts)
-date: 2017-08-30 23:00:00
-tags:
-- PCAP
----
+# Cephalopod (130 pts)
+
+### 0. 題目
+>We've found some strange networktraffic, we suspect it contains a flag.
+
+
 PCAP嘛，當然要用wireshark解(?)
 
-### 0. 正文
+### 1. 正文
 
 打開pcap
-![](/pic/00.png)
+![](https://github.com/byronwai/seelow/tree/master/hitb-2017/CEPHALOPOD/pic/01.PNG)
 
 睇唔明，於是善用filter功能
-![](/pic/01.png)
+![](https://github.com/byronwai/seelow/tree/master/hitb-2017/CEPHALOPOD/pic/02.PNG)
